@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>sign-in now</title>
+    <script type="module" crossorigin src="/assets/showToast-aJn1LV0s.js"></script>
+    <script type="module" crossorigin src="/assets/main-BURmmaT_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/showToast-Dmahnhbi.css">
+  </head>
+  <body>
+    <!-- ========== Start Navbar ========== -->
+    <header class="section-navbar">
+
+        <div class="container">
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img
+                  src="/assets/jhamainlogo-CiO8O8Mt.png"
+                  alt="Jha eCommerce logo"
+                  class="logo"
+                  width="80%"
+                  height="auto"
+                />
+              </a>
+            </div>
+            <nav class="navbar">
+              <ul>
+                <li class="nav-item">
+                  <a href="/" class="nav-link">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">about</a>
+                </li>
+                <li class="nav-item">
+                  <a href="products.html" class="nav-link">products</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">contact</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="addToCart.html"
+                    class="nav-link add-to-cart-button"
+                    id="cartValue"
+                  >
+                    <i class="fa-solid fa-cart-shopping"></i> 0</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!--    ************************ sign -in *********-->
+    <div class="sign-in-container">
+        <div class="sign-in-form">
+          <h2>Sign In Now</h2>
+          <form action="index.html" >
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email1" name="email" required >
+              <div class="error-message" id="email-error"></div>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required > 
+              <div class="error-message" id="password-error" ></div>
+            </div>
+            <button type="submit">Sign In</button>
+            <div class="sign-up-link">
+              <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    
+      
+      
+   
+    <!--* ========== Start Footer Section ========== -->
+      <!-- ========== Start footer Section ========== -->
+    <footer class="section-footer">
+      <div class="footer-container container">
+        <div class="content_1">
+          <img src="/assets/jhalogofooter-CzILpJVK.png" alt="logo" />
+          <p>
+            Welcome to Jha EcomStore, your ultimate destination for
+            cutting-edge gadgets!
+          </p>
+          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+        </div>
+        <div class="content_2">
+          <h4>SHOPPING</h4>
+          <a href="#">Computer Store</a>
+          <a href="#">Laptop Store</a>
+          <a href="#">Accessories</a>
+          <a href="#">Sales & Discount</a>
+        </div>
+        <div class="content_3">
+          <h4>Experience</h4>
+          <a href="./contact.html">Contact Us</a>
+          <a href="" target="_blank">Payment Method</a>
+          <a href="" target="_blank">Delivery</a>
+          <a href="" target="_blank">Return and Exchange</a>
+        </div>
+        <div class="content_4">
+          <h4>NEWSLETTER</h4>
+          <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+          <form  action="#" >
+          <div class="f-mail">
+            <input type="email" placeholder="Your Email" name="email" id="email"
+            required
+            autocomplete="off" />
+            <i class="bx bx-envelope"></i>
+          </div>
+          <div class="footercontact-3">
+            <button type="submit" class="footercontact-btn">
+              Submit
+            </button>
+          </div>
+       </form>
+          
+        </div>
+      </div>
+      <div class="f-design">
+        <div class="f-design-txt">
+          <p>Design and Code by Apurva Kumar</p>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- ========== End footer Section ========== -->
+    
+    <!-- Include the footer JavaScript file -->
+
+    <!--* ========== End Footer Section ========== -->
+
+    <!-- ========== End About Section ========== -->
+
+
+    <!-- JS SCRIPT  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
